@@ -1,0 +1,18 @@
+.titulo-principal{
+    font-style: italic;
+    font-size: 25px;
+    color: blueviolet;
+    transition: 6s all;
+}
+
+.titulo-principal:hover{
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    transform: rotate(-360deg);
+}
+
+.luna{
+    width: 50%;
+    box-shadow: 10px 5px 5px brown;
+}
