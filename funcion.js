@@ -150,9 +150,20 @@
 //                 console.table(`Nombre:${datos.nombre} Placa:${datos.placa} Moto: ${datos.moto} `);
 //             });
 //funciones-----------------------------------------
+//  const Inicio={ 
+//     nombre:prompt('tu nombre'),
+//     Apellido:prompt('tu apelldido'),
+//     Ciudad:prompt('tu ciudad'),
+//     }
 
-    function multiplicar(){
-        console.log(1+2);
-    }      
-multiplicar();
-  
+let Nombre =prompt('tu nombre');
+let Apellido =prompt('tu apellido');
+let Ciudad =prompt('tu ciudad');
+
+
+function Iniciosesion(Nombre, Apellido,Ciudad){
+    
+    console.log(`Bienvenido ${Nombre} ${Apellido} a Rutas para moteros,directamente desde ${Ciudad}`);
+   
+}
+Iniciosesion(Nombre, Apellido,Ciudad);
